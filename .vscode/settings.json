@@ -1,0 +1,33 @@
+{
+  "workbench.sideBar.location": "right",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
+  "window.zoomLevel": -1,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 22,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.renderWhitespace": "boundary",
+  "editor.smoothScrolling": true,
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A9955", // Softer green for comments
+    "keywords": "#569CD6", // Softer blue for keywords
+    "strings": "#D69D85" // Softer color for strings
+  },
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#D4D4D4", // Light text
+    "editor.lineHighlightBackground": "#2D2D2D", // Highlighted line background
+    "editorCursor.foreground": "#AEAFAD", // Cursor color
+    "editorWhitespace.foreground": "#3B3A32" // Whitespace color
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true
+}
