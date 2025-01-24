@@ -27,8 +27,6 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000,
   "editor.formatOnSave": true,
   "go.useLanguageServer": true,
   "go.formatTool": "gofmt",
