@@ -6,7 +6,6 @@
     "esbenp.prettier-vscode", // Prettier for code formatting
     "streetsidesoftware.code-spell-checker", // Spell checker for code
     "shardulm94.trailing-spaces", // Trailing spaces highlighter
-    "oderwat.indent-rainbow", // Indent Rainbow for colorful indentation
-    "coenraads.bracket-pair-colorizer-2" // Bracket Pair Colorizer 2
+    "oderwat.indent-rainbow" // Indent Rainbow for colorful indentation
   ]
 }
