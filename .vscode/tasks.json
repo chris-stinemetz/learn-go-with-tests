@@ -4,7 +4,7 @@
     {
       "label": "Run Tests",
       "type": "shell",
-      "command": "go test ./...",
+      "command": "go test ./src/pkg/...",
       "group": "test",
       "problemMatcher": ["$go"],
       "detail": "Run all Go tests"
