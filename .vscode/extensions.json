@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "golang.go", // Official Go extension
+    "ms-vscode.go", // Go extension by Microsoft
+    "eamodio.gitlens", // GitLens for enhanced Git capabilities
+    "esbenp.prettier-vscode", // Prettier for code formatting
+    "streetsidesoftware.code-spell-checker", // Spell checker for code
+    "shardulm94.trailing-spaces", // Trailing spaces highlighter
+    "oderwat.indent-rainbow", // Indent Rainbow for colorful indentation
+    "coenraads.bracket-pair-colorizer-2" // Bracket Pair Colorizer 2
+  ]
+}
