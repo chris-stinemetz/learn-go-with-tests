@@ -29,5 +29,19 @@
   "editor.guides.highlightActiveIndentation": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "go.useLanguageServer": true,
+  "go.formatTool": "gofmt",
+  "go.lintTool": "golint",
+  "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
+  "go.testOnSave": true,
+  "go.coverOnSave": true,
+  "go.coverageDecorator": {
+    "type": "gutter"
+  },
+  "go.testFlags": ["-v"],
+  "go.toolsEnvVars": {
+    "GOFLAGS": "-mod=readonly"
+  }
 }
