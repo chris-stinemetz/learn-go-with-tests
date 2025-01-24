@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "go test ./...",
+      "group": "test",
+      "problemMatcher": ["$go"],
+      "detail": "Run all Go tests"
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "go build -o bin/main ./src/main.go",
+      "group": "build",
+      "problemMatcher": ["$go"],
+      "detail": "Build the Go project"
+    },
+    {
+      "label": "Format",
+      "type": "shell",
+      "command": "gofmt -w .",
+      "group": "none",
+      "problemMatcher": [],
+      "detail": "Format all Go files"
+    },
+    {
+      "label": "Clean",
+      "type": "shell",
+      "command": "go clean",
+      "group": "none",
+      "problemMatcher": [],
+      "detail": "Clean the Go project"
+    },
+    {
+      "label": "Vet",
+      "type": "shell",
+      "command": "go vet ./...",
+      "group": "build",
+      "problemMatcher": ["$go"],
+      "detail": "Vet the Go project"
+    }
+  ]
+}
