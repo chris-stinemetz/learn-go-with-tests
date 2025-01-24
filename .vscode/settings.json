@@ -4,7 +4,6 @@
   "terminal.integrated.fontSize": 12,
   "window.zoomLevel": -1,
   "editor.minimap.enabled": false,
-  "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": false,
   "editor.wordWrap": "on",
   "editor.lineHeight": 22,
